@@ -7,9 +7,8 @@ html{
 body{
     margin:0;
 }
-main{
-    margin:auto 14px auto 14px;
-}
+
+
 /* ------ titre ---*/
 header h1{
     text-transform:uppercase ;
@@ -232,7 +231,7 @@ aside h2{
     }
     .element__quoi{
         border: solid green 1px;
-        /*width: 500px;*/
+        width: 75%;
         margin-left:16px;
 
     }
@@ -240,12 +239,14 @@ aside h2{
         align-items:start;
         margin-right:4px;
         border: solid purple 1px; 
+        width:25%;
     }
     .element__ou{
         display:flex;
         flex-direction: column;
         white-space: nowrap;
-        flex-basis:200px;;
+        flex-basis:200px;
+        
     }
     .element__puce{
         padding-top: 4px;
